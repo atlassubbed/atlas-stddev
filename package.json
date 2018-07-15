@@ -12,7 +12,8 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1"
   },
   "os": [
     "darwin",
@@ -27,5 +28,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/atlassubbed/atlas-stddev.git"
+  },
+  "dependencies": {
+    "atlas-mean": "^1.0.1",
+    "atlas-mean-square": "^1.0.0"
   }
 }
